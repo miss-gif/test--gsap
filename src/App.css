@@ -1,0 +1,53 @@
+/* App.css */
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.section {
+  background-color: orange;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.horizontal-container {
+  display: flex;
+  width: 300vw; /* 전체 가로 스크롤 컨테이너의 너비 */
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.horizontal-item {
+  width: 100vw; /* 각 가로 스크롤 아이템의 너비 */
+  height: 100vh;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.vertical-item {
+  height: 100vh;
+  background-color: lightcoral;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
